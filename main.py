@@ -1,3 +1,4 @@
 import streamlit as st
 
-st.write("Hello World")
+api_key = st.secrets["API_KEY"]
+st.write(api_key)
