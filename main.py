@@ -4,7 +4,10 @@ api_key = st.secrets["API_KEY"]
 st.write(api_key)
 
 
-
+st.set_page_config(
+    page_title="AIS AI Coding Assistant",
+        layout="centered"
+)
 
 st.title('AIS AI Coding Assistant')
 
