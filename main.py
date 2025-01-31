@@ -6,7 +6,7 @@ st.write(api_key)
 
 st.set_page_config(
     page_title="AIS AI Coding Assistant",
-        layout="centered"
+    page_icon="🤖"
 )
 
 st.title('AIS AI Coding Assistant')
